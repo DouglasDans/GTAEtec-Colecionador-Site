@@ -1,0 +1,109 @@
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: font;
+    background-color: #141517;
+    color: whitesmoke;
+}
+
+nav{
+    list-style: none;
+    position: relative;
+    float: left;
+    bottom: 0%;
+    background-color: #7289da;
+}
+.bg-pers {
+    background-color: #1b1d20 !important;
+}
+.bg-img{
+    backdrop-filter: blur(0px);
+    background-image: url('banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    background-size: 100% 720px;
+}
+li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+    size: 5px;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.nav-link {
+    color: white;
+    padding: 0;
+    padding-left: 25px;
+    font-size: 90%;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+main{
+    margin-left: 8.32%;
+}
+.active{
+    background-color: #2e353d;
+    opacity: 1;
+}
+.download{
+    position: relative;
+    text-align: center;
+}
+.mt-pers{
+    margin-top: 50px;
+}
+.gta-gCard:hover{
+    opacity: 0.5;
+    
+}
+#logo{
+    height: 10%;
+}
+#logo2{
+    height: 30%;
+}
+
+div.img{position: relative; width: 480px; height: 300px}
+div.img > div{position: absolute; left: -16%; top: -25%;  width:70%;}
+
+.z-in{
+    position: relative;
+    z-index: 2;
+}
+
+.capaDoCD{
+    width: 78px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
